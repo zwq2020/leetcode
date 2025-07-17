@@ -17,6 +17,6 @@ class Solution(object):
         while x:
             xnew.append(x % 10)
             x //= 10
-        return xnew == xnew[::-1]
+        return xnew
 # @lc code=end
 
